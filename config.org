@@ -1,0 +1,43 @@
+#+TITLE: gbejoy's Emacs Configuration
+#+AUTHOR: Gokul Bejoy
+#+EMAIL: imgokulbejoy@gmail.com
+
+* Development
+** Tools
+*** Magit
+#+begin_src emacs-lisp
+  (use-package magit
+    :ensure t)
+#+end_src
+* Internet
+
+* Multimedia
+
+* Utility
+* Appearance
+** Font
+#+begin_src emacs-lisp
+	  (set-face-attribute 'variable-pitch nil
+			      :family "IBM Plex Sans"
+			      :height 120
+			      :foundry "IBM")
+	  (set-face-attribute 'default nil
+			      :family "IBM Plex Mono"
+			      :height 120
+			      :foundry "IBM")
+#+end_src
+** Theme
+#+begin_src emacs-lisp
+  (load-theme 'modus-operandi)
+#+end_src
+* Configuration
+** Custom file
+#+begin_src emacs-lisp
+  (setq custom-file "~/.emacs.d/custom.el")
+  (load custom-file)
+#+end_src
+** Backup folder
+#+begin_src emacs-lisp
+  (setq backup-directory-alist
+	`(("." . ,(concat user-emacs-directory "backups"))))
+#+end_src
