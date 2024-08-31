@@ -1,0 +1,17 @@
+#+TITLE: gbejoy's Emacs Configuration
+#+AUTHOR: Gokul Bejoy
+
+This repo contains all my Emacs config files.
+
+* Installation
+1) Clone the repo in the user-emacs-directory
+   1) If using HTTPS:
+      #+begin_src bash
+	git clone https://github.com/gbejoy/.emacs.d.git
+      #+end_src
+   2) If using SSH:
+      #+begin_src bash
+	git clone git@github.com:gbejoy/.emacs.d.git
+      #+end_src
+2) Evaluate [[file://./init.el][init.el]] or restart emacs
+
