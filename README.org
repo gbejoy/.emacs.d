@@ -13,5 +13,5 @@ This repo contains all my Emacs config files.
       #+begin_src bash
 	git clone git@github.com:gbejoy/.emacs.d.git
       #+end_src
-2) Evaluate [[file://./init.el][init.el]] or restart emacs
+2) Evaluate [[https://github.com/gbejoy/.emacs.d/blob/main/init.el][init.el]] or restart emacs
 
