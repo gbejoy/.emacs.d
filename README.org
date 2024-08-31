@@ -1,0 +1,1 @@
+/home/gbejoy/.emacs.d/config.org
